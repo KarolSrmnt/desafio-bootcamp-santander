@@ -1,6 +1,8 @@
 
 # Release notes
 
+O desafio consistia em aprimorar o código já existente e disponível no github: https://github.com/cami-la/desafio-poo-dio/tree/master
+
 ## Funcionalidades
 Foram implementados os seguintes métodos:
 
