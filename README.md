@@ -15,7 +15,12 @@ Foram implementados os seguintes métodos:
 
 **Melhorias no toString() - Class Mentoria**
 - Melhoria na impressão do método:
-  `return "{Mentoria - " + exibirConteudo() +", Data: " + data +'}';`
+-  Código antigo:
+` public String toString() {
+      return "Curso{" + "titulo='" + getTitulo() + '\'' + ", descricao='" + getDescricao() + '\'' + ", cargaHoraria=" + cargaHoraria + '}'; }`
+- Código novo:
+ `public String toString() {
+      return "{Curso - " + exibirConteudo() + ", Carga Horária: " + cargaHoraria + "h}"; } `
 
 **Melhorias no toString() - Class Curso**
 - Melhoria na impressão do método:
